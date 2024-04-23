@@ -13,6 +13,7 @@ new_entries.columns = ['Projektnummer', 'Projektbezeichnung']
 
 print("New Entries:")
 print(new_entries)
+print("Here is a Change in Fork 1")
 
 output_excel_path = "new_entries.xlsx"
 new_entries.to_excel(output_excel_path, index=False)
